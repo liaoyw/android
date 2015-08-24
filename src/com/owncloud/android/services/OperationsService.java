@@ -231,7 +231,6 @@ public class OperationsService extends Service {
      */
     @Override
     public IBinder onBind(Intent intent) {
-        //Log_OC.wtf(TAG, "onBind" );
         return mOperationsBinder;
     }
 
@@ -718,8 +717,7 @@ public class OperationsService extends Service {
             }
         }
         if (count == 0) {
-            //mOperationResults.put(operation.hashCode(), result);
-            Pair<RemoteOperation, RemoteOperationResult> undispatched = 
+            Pair<RemoteOperation, RemoteOperationResult> undispatched =
                     new Pair<RemoteOperation, RemoteOperationResult>(operation, result);
             mUndispatchedFinishedOperations.put(operation.hashCode(), undispatched);
         }
