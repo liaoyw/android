@@ -5,7 +5,7 @@ The app performs file synchronization with an ownCloud server. Other ownCloud fe
 ## Build Status on
 Git master: ![Build Status](https://api.travis-ci.org/owncloud/android.svg?branch=master)
 
-Git stable:  ![Build Status](https://api.travis-ci.org/owncloud/android.svg?branch=stable)
+Git stable:  ![Build Status](https://api.travis-ci.org/owncloud/android.svg?branch=stable)ok
 
 ## Development
 
