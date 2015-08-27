@@ -1,4 +1,5 @@
 #!/bin/bash -e
+# why ant
 
 
 function initDefault {
